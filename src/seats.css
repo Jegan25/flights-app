@@ -30,14 +30,14 @@
     color: #fff;
   }
   
-  .selected {
+/*   .selected {
     background: red;
     color: #fff;
-  }
-  
+  } */
+/*   
   .reserved::after {
     content: "R";
-  }
+  } */
   
   .selected::after {
     content: "S";
