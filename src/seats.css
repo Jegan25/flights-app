@@ -11,14 +11,14 @@
     margin: auto;
   }
   
-  .grid td {
+/*   .grid td {
     width: 25px;
     height: 35px;
     border: 2px solid orange;
     text-align: center;
     display: inline-block;
     margin: 5px;
-  }
+  } */
   
   .grid td:hover {
     opacity: 0.7;
