@@ -1,0 +1,61 @@
+#app {
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .container {
+    width: 600px;
+    margin: auto;
+  }
+  
+  .grid td {
+    width: 25px;
+    height: 35px;
+    border: 2px solid orange;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+  }
+  
+  .grid td:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+  
+  .reserved {
+    background: orange;
+    color: #fff;
+  }
+  
+  .selected {
+    background: red;
+    color: #fff;
+  }
+  
+  .reserved::after {
+    content: "R";
+  }
+  
+  .selected::after {
+    content: "S";
+  }
+  
+  .available::after {
+    content: "A";
+  }
+  
+  .available {
+    color: #333;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .btnmargin {
+    margin-top: 15px;
+  }
+  
