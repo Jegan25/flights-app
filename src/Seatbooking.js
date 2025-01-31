@@ -1,5 +1,5 @@
 import React from "react";
-import "./seats.css";
+//import "./seats.css";
 import Seatbookings from "./Seatbookings";
 
 import Grid from "@material-ui/core/Grid";
